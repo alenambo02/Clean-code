@@ -1,56 +1,56 @@
-// // var numArray = [1, 2, 3, 4];
-// // var sum = 0;
+var numArray = [1, 2, 3, 4];
+var sum = 0;
 
-// // for (var i = 0; i < numArray.length; i++) {
-// //   sum += numArray[i];
-// //   }
-// // console.log(sum);
+for (var i = 0; i < numArray.length; i++) {
+  sum += numArray[i];
+  }
+console.log(sum);
 
-// // var schoolSum = [55, 12000, 800];
-// // var total = 0;
+var schoolSum = [55, 12000, 800];
+var total = 0;
 
-// // for (var i= 0; i < schoolSum.length; i++) {
-// // total += schoolSum[i];
-// // }
-// // console.log(total);
+for (var i= 0; i < schoolSum.length; i++) {
+total += schoolSum[i];
+}
+console.log(total);
 
-// // var numArray = [1, 2, 3, 4];
-// // var aDayOut = [6, 25, 40, 20];
+var numArray = [1, 2, 3, 4];
+var aDayOut = [6, 25, 40, 20];
 
-// // function calculateTotal(arr) {
-// // var total = 0;
-// // for (var i= 0; i < arr.length; i++) {
-// //     total += arr[i];
-// //  }
-// //     return total;
-// // }
+function calculateTotal(arr) {
+var total = 0;
+for (var i= 0; i < arr.length; i++) {
+    total += arr[i];
+ }
+    return total;
+}
 
-// // console.log(calculateTotal(aDayOut))
-// // console.log(calculateTotal(numArray))
-
-
-// // total / numArray
+console.log(calculateTotal(aDayOut))
+console.log(calculateTotal(numArray))
 
 
-// // Question: 1 
+total / numArray
 
-// var numArray = [2, 4, 5, 7, 5];
 
-// output = 0 
-// for(var i = 0; i > numArray.length; i ++){
-//     output = output -1
-//     for(var x=0; x > numArray.length; x++){
-//         if (numArray[i] == numArray[x]) {output = output + 1} 
-//     }
+// Question: 1 
+
+var numArray = [2, 4, 5, 7, 5];
+
+output = 0 
+for(var i = 0; i > numArray.length; i ++){
+    output = output -1
+    for(var x=0; x > numArray.length; x++){
+        if (numArray[i] == numArray[x]) {output = output + 1} 
+    }
     
-// }
-// // console.log(output)
-// if (output == 0) {
-//     console.log(false)
-// }
-// else {
-//     console.log(true) 
-// }
+}
+// console.log(output)
+if (output == 0) {
+    console.log(false)
+}
+else {
+    console.log(true) 
+}
 
 
 
@@ -68,7 +68,7 @@ for (var j = 0; j < newArray.length; j++) {
     
 }
 
-    if (arr[i] === newArray)
+    if (arr[i] === newArray)    
     }
 }
 
